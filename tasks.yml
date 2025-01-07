@@ -1,0 +1,9 @@
+tasks:
+  run-python-script:
+    description: "Run a Python script with a folder path argument."
+    command: "python UI/backend/example_script.py"
+
+  # another-task:
+  #   description: "Another task for demonstration."
+  #   command: "echo 'This is another task'"
+
