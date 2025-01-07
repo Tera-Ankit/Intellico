@@ -1,8 +1,5 @@
-// utils.js
-export function calculateSum(a, b) {
-    return a + b;
-}
+import React from "react";
 
-export function formatDate(date) {
-    return new Date(date).toLocaleDateString();
+export default function Utils() {
+    return <div>Utils</div>;
 }
