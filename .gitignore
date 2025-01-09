@@ -2,3 +2,7 @@ vvv/
 __pycache__/
 node_modules
 .env
+babel.config.js
+package-lock.json
+package.json
+tests
