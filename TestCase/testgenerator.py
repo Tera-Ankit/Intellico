@@ -115,7 +115,7 @@ def configure_package_json(root_dir, output_folder):
                 "jsx"
             ],
             "testEnvironment": "jest-environment-jsdom",
-            "testMatch": [f"<rootDir>/{output_folder}/**/*.test.js"]  # This line includes the tests directory
+            "testMatch": [f"<rootDir>/**/*.test.js"]  # This line includes the tests directory
         }
     }
 
