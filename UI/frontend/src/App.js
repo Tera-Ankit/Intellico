@@ -37,7 +37,7 @@ function App() {
 
     // Send the folder path to the FastAPI backend
     try {
-      const response = await axios.post("http://127.0.0.1:8000/save-folder", {
+      const response = await axios.post("http://localhost:8000/save-folder", {
         folderPath: folderPath, // Send the folder path in the request body
       });
 
